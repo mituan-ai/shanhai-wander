@@ -162,6 +162,16 @@ class AmapProxyTests(SimpleTestCase):
         self.assertEqual(amap_proxy(second, 'v4/maps').status_code, 200)
 
 
+    @patch('config.amap_proxy.httpx.Client')
+    def test_sdk_log_acknowledgement_is_safe_javascript_for_script_tag(self, client):
+        self.upstream(client, b'{"status":"1","info":"acknowledged"}', 'application/json')
+        response = self.request('v3/log/init')
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.content, b'void 0;')
+        self.assertIn('application/javascript', response['Content-Type'])
+        self.assertEqual(response['X-Content-Type-Options'], 'nosniff')
+
+
 class SecurityHeadersTests(SimpleTestCase):
     def response(self):
         from config.middleware import HeadersMiddleware

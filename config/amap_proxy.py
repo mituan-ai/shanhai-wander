@@ -118,6 +118,11 @@ def amap_proxy(request, service):
                 for secret in (security_code, getattr(settings, 'AMAP_WEB_KEY', '').strip()):
                     if secret and any(encoded in payload for encoded in (secret.encode(), quote(secret, safe='').encode())):
                         raise ValueError('credential in response')
+                if service == 'v3/log/init':
+                    # The SDK loads this telemetry acknowledgement through a script tag.
+                    # Do not execute/reflect the vendor's JSON or arbitrary response body.
+                    payload = b'void 0;'
+                    content_type = 'application/javascript'
                 response = HttpResponse(payload, content_type=content_type)
                 response['Cache-Control'] = 'private, max-age=300'
                 response['X-Content-Type-Options'] = 'nosniff'
