@@ -104,3 +104,6 @@ if TRUST_PROXY:
 AMAP_WEB_KEY = os.getenv("AMAP_WEB_KEY", "")
 AMAP_JS_KEY = os.getenv("AMAP_JS_KEY", "")
 AMAP_JS_SECURITY_CODE = os.getenv("AMAP_JS_SECURITY_CODE", "")
+
+# Opt in only when Cloudflare is configured to inject its analytics beacon.
+CLOUDFLARE_ANALYTICS_ENABLED = os.getenv("CLOUDFLARE_ANALYTICS_ENABLED", "false").lower() == "true"

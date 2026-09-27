@@ -1,3 +1,6 @@
+from django.conf import settings
+
+
 class HeadersMiddleware:
     def __init__(self, get_response):
         self.get_response = get_response
@@ -12,6 +15,10 @@ class HeadersMiddleware:
             "connect-src 'self' https://*.amap.com https://*.autonavi.com; worker-src 'self' blob:; "
             "font-src 'self' data:; frame-ancestors 'none'; base-uri 'self'; form-action 'self'; object-src 'none'"
         )
+        if settings.CLOUDFLARE_ANALYTICS_ENABLED:
+            response["Content-Security-Policy"] = response["Content-Security-Policy"].replace(
+                "script-src 'self'", "script-src https://static.cloudflareinsights.com 'self'"
+            ).replace("connect-src 'self'", "connect-src https://cloudflareinsights.com 'self'")
         if request.path.startswith(("/api/", "/trips/", "/my-trips/", "/accounts/")):
             response["Cache-Control"] = "private, no-store"
         return response

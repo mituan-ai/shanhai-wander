@@ -13,6 +13,7 @@
 | `CSRF_TRUSTED_ORIGINS` | 逗号分隔完整来源，如 `https://trip.example.com` |
 | `TRUST_PROXY` | 仅当应用被可信代理隔离且代理覆盖协议头时设置 `true` |
 | `DOMAIN` | 配套 Caddy 所用域名；生产覆盖文件自动派生主机与 CSRF 配置 |
+| `CLOUDFLARE_ANALYTICS_ENABLED` | 默认 `false`；若 Cloudflare 已注入 Web Analytics，设为 `true` 以允许该脚本及其数据请求 |
 | `AMAP_*` | 高德凭证，详见 [高德说明](amap.md) |
 
 ## 正式部署

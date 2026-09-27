@@ -202,7 +202,7 @@
     try {
       amap.remove(overlays); overlays=[];
       for (const [index, stop] of stops.entries()) {
-        const marker=new AMap.Marker({position:[stop.lng,stop.lat],title:stop.name,label:{content:element('span','',`${index+1}. ${stop.name}`),direction:'top'}});
+        const marker=new AMap.Marker({position:[stop.lng,stop.lat],title:stop.name,label:{content:element('span','',`${index+1}. ${stop.name}`).outerHTML,direction:'top'}});
         overlays.push(marker);
       }
       const segments=currentCalculation?.legs?.length?currentCalculation.legs:[{polyline:stops.map(stop=>[stop.lng,stop.lat]),source:'estimate'}];

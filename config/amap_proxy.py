@@ -28,7 +28,7 @@ TARGETS = {
     **{path: 'https://restapi.amap.com/' + path for path in (
         'v3/assistant/inputtips', 'v4/assistant/inputtips',
         'v3/place/text', 'v3/place/around', 'v3/place/polygon', 'v3/place/detail',
-        'v3/geocode/geo', 'v3/geocode/regeo', 'v3/config/district', 'v3/ip',
+        'v3/geocode/geo', 'v3/geocode/regeo', 'v3/config/district', 'v3/ip', 'v3/log/init',
     )},
 }
 MAX_RESPONSE_BYTES = 4 * 1024 * 1024

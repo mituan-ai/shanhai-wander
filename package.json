@@ -3,7 +3,7 @@
   "private": true,
   "description": "Optional browser regression checks; the Python application does not need Node.js.",
   "scripts": {
-    "test:e2e": "node tests/browser.cjs"
+    "test:e2e": "node tests/browser.cjs && node tests/map-labels.cjs"
   },
   "devDependencies": {
     "playwright": "1.61.1"

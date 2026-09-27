@@ -51,7 +51,7 @@ class AmapProxyTests(SimpleTestCase):
     @patch('config.amap_proxy.httpx.Client')
     def test_geocoder_and_poi_sdk_queries_fixed_rest_host(self, client):
         instance = self.upstream(client)
-        for service in ['v3/assistant/inputtips', 'v3/geocode/regeo', 'v3/place/text', 'v3/config/district']:
+        for service in ['v3/assistant/inputtips', 'v3/geocode/regeo', 'v3/place/text', 'v3/config/district', 'v3/log/init']:
             self.assertEqual(self.request(service).status_code, 200)
             self.assertEqual(instance.stream.call_args.args[1], 'https://restapi.amap.com/' + service)
 
@@ -160,3 +160,21 @@ class AmapProxyTests(SimpleTestCase):
         self.assertEqual(amap_proxy(first, 'v4/maps').status_code, 200)
         self.assertEqual(amap_proxy(first, 'v4/maps').status_code, 429)
         self.assertEqual(amap_proxy(second, 'v4/maps').status_code, 200)
+
+
+class SecurityHeadersTests(SimpleTestCase):
+    def response(self):
+        from config.middleware import HeadersMiddleware
+        from django.http import HttpResponse
+        return HeadersMiddleware(lambda request: HttpResponse("ok"))(RequestFactory().get("/"))
+
+    @override_settings(CLOUDFLARE_ANALYTICS_ENABLED=False)
+    def test_cloudflare_analytics_is_not_allowed_by_default(self):
+        self.assertNotIn("cloudflareinsights.com", self.response()["Content-Security-Policy"])
+
+    @override_settings(CLOUDFLARE_ANALYTICS_ENABLED=True)
+    def test_configured_cloudflare_beacon_uses_only_its_script_and_ingest_hosts(self):
+        policy = self.response()["Content-Security-Policy"]
+        self.assertIn("script-src https://static.cloudflareinsights.com 'self'", policy)
+        self.assertIn("connect-src https://cloudflareinsights.com 'self'", policy)
+        self.assertIn("frame-ancestors 'none'", policy)

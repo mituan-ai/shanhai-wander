@@ -10,3 +10,7 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
 @media print{.site-header,.site-footer,.mobile-nav,.back-link,.button-row,.delete-trip,.trip-detail-page aside,.messages,.toast,.skip-link{display:none!important}body{background:white}.container{width:100%}.page-section{padding:0}.detail-columns{display:block}.panel{box-shadow:none;border:0;padding:10px 0}.timeline li{break-inside:avoid}.timeline li p{color:#444}.detail-info-strip{background:#eee}.stop-detail-meta a{display:none}h1{font-size:26px}.section-heading{margin-bottom:15px}}
 .pagination{display:flex;align-items:center;justify-content:center;gap:20px;margin:35px 0 10px;font-size:11px;color:var(--muted)}#view-trip{font-size:11px}@media(max-width:680px){#view-trip{font-size:10px}.planner-top-actions{flex-wrap:wrap}.pagination{gap:12px}.pagination .btn{font-size:10px}.pagination>span{font-size:10px}}
+
+/* Keep provider attribution unobstructed when the live basemap is enabled. */
+.map-note{top:14px;bottom:auto;max-width:calc(100% - 94px)}
+.amap-marker-label{border:1px solid #cdd7cc!important;border-radius:6px;padding:5px 8px!important;background:#fffffff2!important;color:#285544;font:12px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif!important}
