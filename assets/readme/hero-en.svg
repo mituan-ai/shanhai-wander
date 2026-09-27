@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="350" viewBox="0 0 1200 350" role="img" aria-labelledby="title desc">
+<title id="title">Shanhai Wander</title><desc id="desc">An itinerary connects sightseeing, an overnight stay and a charging stop; the landscape uses the app’s existing mountain-road motif.</desc>
+<g font-family="-apple-system,BlinkMacSystemFont,Segoe UI,PingFang SC,Microsoft YaHei,sans-serif"><rect width="1200" height="350" rx="18" fill="#f4f5ed"/>
+<path d="M565 350V230L695 103 776 210 893 57 1036 226 1200 158V350Z" fill="#e2e8da"/>
+<path d="M665 350V279L802 174 891 278 1026 152 1200 286V350Z" fill="#c8d8bc"/>
+<circle cx="1101" cy="71" r="30" fill="#e7c9a0"/>
+<text x="48" y="48" font-size="16" fill="#6e816e" letter-spacing="2">A LITTLE LESS PLANNING. A LITTLE MORE TRAVEL.</text>
+<text x="46" y="137" font-size="58" font-weight="650" fill="#234f40">Shanhai Wander</text>
+<text x="49" y="176" font-size="19" fill="#6e816e" letter-spacing="3">PICK A ROUTE. MAKE IT YOURS.</text>
+<text x="49" y="237" font-size="25" fill="#3c5745">Every stop. Every stay.</text>
+<text x="49" y="276" font-size="25" fill="#3c5745">Your whole trip, in one place.</text>
+<path d="M620 322C637 235 747 301 804 220S924 300 984 231 1084 297 1160 252" fill="none" stroke="#f4f5ed" stroke-width="18"/>
+<path d="M620 322C637 235 747 301 804 220S924 300 984 231 1084 297 1160 252" fill="none" stroke="#78966f" stroke-width="2" stroke-dasharray="6 8"/>
+<g transform="translate(700 258)"><circle r="23" fill="#285544"/><text y="-39" text-anchor="middle" fill="#285544" font-size="21" font-weight="600">Explore</text><path d="m-13 8 9-18 7 12 5-8 7 14Z" fill="none" stroke="#f8f8f3" stroke-width="2" stroke-linejoin="round"/></g><g transform="translate(878 248)"><circle r="23" fill="#285544"/><text y="-39" text-anchor="middle" fill="#285544" font-size="21" font-weight="600">Stay</text><path d="m-13-2 13-10 13 10M-9-5V11H9V-5M-3 11V2H3V11" fill="none" stroke="#f8f8f3" stroke-width="2" stroke-linejoin="round"/></g><g transform="translate(1070 270)"><circle r="23" fill="#285544"/><text y="-39" text-anchor="middle" fill="#285544" font-size="21" font-weight="600">Recharge</text><path d="m3-14-11 16H0L-3 14 10-3H2Z" fill="#f8f8f3"/></g></g></svg>

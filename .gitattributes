@@ -1,2 +1,7 @@
-* text=auto eol=lf
-*.png binary
+* text=auto
+*.sh text eol=lf
+Dockerfile text eol=lf
+*.py text eol=lf
+*.js text eol=lf
+*.cjs text eol=lf
+*.svg text eol=lf

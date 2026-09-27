@@ -1,7 +1,0 @@
-Use case: ui-mockup
-Asset type: raster map layer for an open-source road-trip planner README hero
-Primary request: Create a clean, realistic Chinese road-map backdrop inspired by the supplied product screenshot. Show one continuous dark-green driving route from a green start flag to an orange finish flag. Place six numbered scenic stops and one orange hotel marker directly on that same route.
-Input image: real product screenshot used only as a reference for map colors, road density, marker language, and route styling
-Composition: 3:1 wide banner. Reserve the entire left half as quiet warm-white negative space for deterministic HTML typography. Put the route on the right half, fully inside the canvas.
-Style: restrained web-map cartography, pale warm land, thin orange roads, soft blue lakes and rivers, subtle green terrain
-Constraints: exactly one continuous route; every numbered stop, hotel, start and finish must sit on the route; no branches, detached paths, floating markers, labels, text, logos or watermark

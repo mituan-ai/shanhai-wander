@@ -1,0 +1,6 @@
+Django>=5.2.12,<5.3
+httpx>=0.28.1,<0.29
+whitenoise>=6.9,<7
+gunicorn>=23,<24
+defusedxml>=0.7.1,<0.8
+python-dotenv>=1.0,<2

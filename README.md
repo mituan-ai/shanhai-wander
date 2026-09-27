@@ -1,140 +1,109 @@
 <p align="center">
-  <img src="./assets/readme/hero.png" width="100%" alt="免费自驾旅游路线规划器：地点、景观公路和住宿按天放进地图">
+  <img src="./assets/readme/hero-zh.svg" width="100%" alt="山海漫游：把风景、住宿和充电排进你的每一天">
 </p>
 
 <p align="center">
-  <a href="https://trip.yhdmt.site"><img alt="在线使用" src="https://img.shields.io/badge/在线使用-trip.yhdmt.site-07594c?style=flat-square"></a>
-  <a href="https://github.com/mituan-ai/china-roadtrip-planner/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/mituan-ai/china-roadtrip-planner/ci.yml?branch=main&style=flat-square&label=CI"></a>
-  <a href="https://github.com/mituan-ai/china-roadtrip-planner/releases/tag/v1.0.0"><img alt="v1.0.0" src="https://img.shields.io/badge/version-v1.0.0-f28c42?style=flat-square"></a>
-  <a href="./LICENSE"><img alt="MIT License" src="https://img.shields.io/badge/license-MIT-18201e?style=flat-square"></a>
-</p>
-
-免费的自驾旅游路线规划器，不用登录。选起终点，把景点、景观公路和酒店按天排好，地图会画出路线，并算出每天的里程和驾驶时间。
-
-路线绕不绕、一天开多久、酒店会不会让前后两天折返，都能直接看。
-
-使用方法：选起终点和日期 → 加路线或地点 → 看地图调顺序。
-
-<p align="center">
-  <a href="https://trip.yhdmt.site"><strong>打开网站</strong></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/mituan-ai/china-roadtrip-planner/issues">提问题</a>
-  &nbsp;·&nbsp;
-  <a href="./docs/route-data-format.md">添加路线</a>
+  <a href="./pyproject.toml"><img src="https://img.shields.io/badge/version-2.0.0-285544?style=flat-square" alt="Version 2.0.0"></a>
+  <a href="https://www.python.org/"><img src="https://img.shields.io/badge/Python-3.12%2B-3776AB?style=flat-square&amp;logo=python&amp;logoColor=white" alt="Python 3.12 or newer"></a>
+  <a href="https://www.djangoproject.com/"><img src="https://img.shields.io/badge/Django-5.2-092E20?style=flat-square&amp;logo=django&amp;logoColor=white" alt="Django 5.2"></a>
+  <a href="#三分钟开始"><img src="https://img.shields.io/badge/Docker-ready-2496ED?style=flat-square&amp;logo=docker&amp;logoColor=white" alt="Docker ready"></a>
+  <a href="https://github.com/mituan-ai/shanhai-wander/actions/workflows/ci.yml"><img src="https://github.com/mituan-ai/shanhai-wander/actions/workflows/ci.yml/badge.svg" alt="Automated checks"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-758164?style=flat-square" alt="MIT License"></a>
 </p>
 
 <p align="center">
-  <img src="./docs/images/planner-desktop.png" width="100%" alt="桌面端按天编排行程和地图路线">
+  <strong>简体中文</strong> · <a href="./README_EN.md">English</a><br>
+  <a href="#三分钟开始">开始使用</a> · <a href="./docs/amap.md">开启高德地图</a> · <a href="./docs/deployment.md">部署到服务器</a> · <a href="https://github.com/mituan-ai/shanhai-wander/issues">反馈问题</a>
 </p>
 
-## 怎么用
+**选一条喜欢的路线，把景点、酒店和充电停靠按天排好。** 山海漫游帮你保存、调整和分享旅行计划，支持自驾、电车、骑行和步行。
 
-1. 选起点、终点和日期。
-2. 把路线模板或普通地点放到某一天。
-3. 看地图和当天驾驶时间，再调顺序。
-4. 需要过夜时搜索酒店。酒店会同时成为前一天终点和第二天起点。
+<p align="center">
+  <img src="./assets/readme/trip-planner.png" width="100%" alt="真实桌面界面：左侧按天安排地点和酒店，右侧查看路线示意与交通估算">
+</p>
 
-手机点开地点后，可以跳到高德导航。行程保存在当前浏览器，也可导出 JSON。
+## 想去哪儿，都能慢慢安排
 
-## 现在有哪些路线
-
-路线库现在只有5条皖南、浙西路线：
-
-| 路线 | 可选方向或版本 |
+| | 你可以这样用 |
 | --- | --- |
-| 皖南川藏线 | 西进东出、东进西出 |
-| 皖浙天路 | 家朋至荆州及反向，岛石可选 |
-| 浙西天路 | 59公里精华线、139公里环线 |
-| 皖浙1号公路 | 屯溪至千岛湖及反向 |
-| 环千岛湖公路 | 顺时针、逆时针 |
-
-起终点和普通地点可以在全国范围搜索。路线模板仍需继续补充。
-
-## 本地运行
-
-需要 [Node.js 22+](https://nodejs.org/) 和三项高德开放平台配置：Web 端 JS API Key、安全密钥、Web 服务 Key。请申请自己的 Key 并限制可用域名。
-
-```powershell
-Copy-Item .env.example .env
-npm install
-npm run dev
-```
-
-- 前端：`http://127.0.0.1:5173`
-- API：`http://127.0.0.1:3000`
-
-```powershell
-npm run typecheck
-npm test
-npm run build
-npm run test:e2e
-```
-
-## 技术结构
+| 🗺️ **找灵感** | 从 30 条经典路线里挑一条，按地区、天数和风格筛选。 |
+| 📍 **排路线** | 添加地点、修改顺序、调整停留时间，把一站移到另一天。 |
+| 🛏️ **安排住宿** | 把酒店放进当天，下一天会从这里继续出发。 |
+| ⚡ **安排补能** | 填写电车续航，查看补能提醒，搜索并添加充电站。 |
+| 🔒 **收好行程** | 注册账号，私密保存；想分享时，再公开到社区。 |
+| 📤 **带走路线** | 上传或导出 JSON / GPX，也能打印或保存成 PDF。 |
 
 <p align="center">
-  <img src="./assets/readme/workflow.svg" width="100%" alt="浏览器、Fastify 服务端与高德 API 之间的数据流程">
+  <img src="./assets/readme/route-library.png" width="100%" alt="经典路线库：山野、海岸、湖泊、沙漠与草原路线，支持关键词、地区和天数筛选">
 </p>
 
-<p align="center">
-  <img alt="React" src="https://img.shields.io/badge/React-19-20232a?style=flat-square&logo=react&logoColor=61dafb">
-  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178c6?style=flat-square&logo=typescript&logoColor=white">
-  <img alt="Vite" src="https://img.shields.io/badge/Vite-7-646cff?style=flat-square&logo=vite&logoColor=white">
-  <img alt="Fastify" src="https://img.shields.io/badge/Fastify-5-18201e?style=flat-square&logo=fastify&logoColor=white">
-  <img alt="Zod" src="https://img.shields.io/badge/Zod-3-3e67b1?style=flat-square&logo=zod&logoColor=white">
-  <img alt="Zustand" src="https://img.shields.io/badge/Zustand-5-8b5e3c?style=flat-square">
-  <img alt="Playwright" src="https://img.shields.io/badge/Playwright-E2E-2e8b57?style=flat-square&logo=playwright&logoColor=white">
-  <img alt="Docker" src="https://img.shields.io/badge/Docker-ready-2496ed?style=flat-square&logo=docker&logoColor=white">
-</p>
+## 三分钟开始
 
-- 前端使用 React、TypeScript、Vite 和 Zustand。
-- Fastify 代理高德 Web 服务请求，Web Service Key 不进浏览器。
-- Zod 校验行程、路线和 API 输入。
-- Vitest 和 Playwright 覆盖域模型、API、桌面端和手机端流程。
+先装好 [Docker](https://docs.docker.com/get-started/get-docker/) 和 [Git](https://git-scm.com/downloads)，打开终端，依次粘贴：
 
-## Docker
-
-```powershell
-Copy-Item .env.example .env
+```bash
+git clone https://github.com/mituan-ai/shanhai-wander.git
+cd shanhai-wander
+cp .env.example .env
 docker compose up -d --build
 ```
 
-默认只在 `127.0.0.1:3000` 暴露服务。生产环境可以加入现有 Caddy 网络：
+打开 **[http://localhost:8000](http://localhost:8000)** → 注册账号 → 选一条路线 → 开始规划。
 
-```bash
-docker compose -f compose.yaml -f compose.production.yaml pull
-docker compose -f compose.yaml -f compose.production.yaml up -d --no-build
+> [!TIP]
+> 第一次启动需要下载依赖，等一会儿即可。Windows PowerShell 也可以直接运行以上命令。
+
+<p align="center">
+  <img src="./assets/readme/workflow-zh.svg" width="100%" alt="使用流程：选一条路线，安排每一天，保存并出发">
+</p>
+
+## 开启地图、酒店和充电站搜索
+
+到[高德开放平台](https://lbs.amap.com/)申请凭证，把三项配置填进项目里的 `.env` 文件：
+
+```dotenv
+AMAP_WEB_KEY=你的Web服务Key
+AMAP_JS_KEY=你的Web端JSKey
+AMAP_JS_SECURITY_CODE=你的JS安全密钥
 ```
 
-生产环境设置 `TRUST_PROXY=true`、`CADDY_NETWORK` 和自己的域名。`deploy.Caddyfile` 是可直接修改的模板。
+保存后执行：
 
-<details>
-<summary><strong>数据与隐私</strong></summary>
+```bash
+docker compose up -d --force-recreate app
+```
 
-- 地图、POI 和路线坐标统一使用 GCJ-02。
-- 行程保存在浏览器 `localStorage`；服务端没有用户行程数据库。
-- 分享数据放在 URL Hash，默认不包含住宿。
-- 地点关键词和路线坐标会经服务端发送给高德，用于搜索、路线和天气请求。
-- Web Service Key 只存在服务器环境变量中。Web 端 JS Key 和安全密钥会按高德 Web API 要求发送到浏览器。
+> [!NOTE]
+> 不填 Key 也能选路线、编辑、保存和分享，此时地图是示意图，里程是直线估算。配置好高德后才会查询真实道路、酒店和充电站。[查看申请与配置步骤 →](./docs/amap.md)
 
-</details>
+酒店用于安排行程位置，不提供预订；充电站的可用桩、接口和营业时间，出发前还需确认。
 
-## 目前不做什么
+## 自己留着，也能分享给同行的人
 
-- 不做账号、云端方案库或社区。
-- 不提供酒店价格、预订或付费功能。
-- 天气只显示高德当前能查到的日期。
-- 路线会受施工、管制和天气影响，出发前仍要看实时导航和当地通知。
+<p align="center">
+  <img src="./assets/readme/saved-trip.png" width="100%" alt="保存后的旅行：每日地点清单、JSON与GPX下载、打印，以及自主公开分享">
+</p>
 
-## 添加路线
+> [!TIP]
+> 新建和上传的行程默认私密。想分享时打开行程，点击「公开分享路线」；公开前检查酒店、日期和备注里有没有不想透露的信息。
 
-路线不是一串景点名。每条模板需要标明方向、可选节点、隐藏导航锚点、资料来源和核验日期。
+## 放到自己的服务器
 
-- 贡献流程：[CONTRIBUTING.md](CONTRIBUTING.md)
-- 路线数据格式：[docs/route-data-format.md](docs/route-data-format.md)
-- 资料与核验要求：[DATA_SOURCES.md](DATA_SOURCES.md)
-- 安全问题：[SECURITY.md](SECURITY.md)
+账号和行程保存在本机数据库里，Docker 会替你保存数据。填写域名后，也可以开启 HTTPS，让朋友们一起使用。
 
-## 许可证
+| 你想做什么 | 看这里 |
+| --- | --- |
+| 🌐 部署到服务器、配置域名 | [部署指南](./docs/deployment.md) |
+| 💾 备份或恢复账号与行程 | [备份指南](./docs/backup.md) |
+| 🔑 配置地图、排查搜索问题 | [高德配置](./docs/amap.md) |
+| 🧭 添加路线或改进功能 | [参与贡献](./CONTRIBUTING.md) |
 
-[MIT](LICENSE) © 2026 mituan-ai contributors
+> [!IMPORTANT]
+> 正常执行 `docker compose down` 不会删除行程。**不要加 `-v`**，它会删除数据卷。重要行程请定期备份。
+
+---
+
+<p align="center">
+  <strong>山海很远，出发很简单。</strong><br>
+  <a href="https://github.com/mituan-ai/shanhai-wander/issues">反馈与建议</a> · <a href="./DATA_SOURCES.md">路线资料</a> · <a href="./LICENSE">MIT License</a>
+</p>

@@ -1,0 +1,2818 @@
+[
+  {
+    "slug": "wannan-sichuan-line",
+    "title": "皖南川藏线",
+    "subtitle": "把周末，交给竹海与山间的弯道",
+    "region": "华东",
+    "category": "山野秘境",
+    "days": 3,
+    "distance_km": 160,
+    "season": "春、夏、秋",
+    "difficulty": "适中",
+    "description": "把周末，交给竹海与山间的弯道。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "周末出发",
+      "盘山公路",
+      "竹林"
+    ],
+    "stops": [
+      {
+        "id": "wannan-sichuan-line-1",
+        "name": "月亮湾风景区",
+        "lng": 118.567529,
+        "lat": 30.678423,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 90,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "月亮湾风景区"
+      },
+      {
+        "id": "wannan-sichuan-line-2",
+        "name": "汀溪镇",
+        "lng": 118.550591,
+        "lat": 30.580801,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "汀溪镇"
+      },
+      {
+        "id": "wannan-sichuan-line-3",
+        "name": "泾县六道弯观景台",
+        "lng": 118.586184,
+        "lat": 30.511911,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 45,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "泾县六道弯观景台"
+      },
+      {
+        "id": "wannan-sichuan-line-4",
+        "name": "板桥村",
+        "lng": 118.645617,
+        "lat": 30.523906,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "板桥村"
+      },
+      {
+        "id": "wannan-sichuan-line-5",
+        "name": "方塘落羽杉湿地",
+        "lng": 118.750437,
+        "lat": 30.477728,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "方塘落羽杉湿地"
+      },
+      {
+        "id": "wannan-sichuan-line-6",
+        "name": "储家滩旅游景区",
+        "lng": 118.885875,
+        "lat": 30.5893,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 90,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "储家滩旅游景区"
+      },
+      {
+        "id": "wannan-sichuan-line-7",
+        "name": "青龙乡",
+        "lng": 118.909657,
+        "lat": 30.619088,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "青龙乡"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 参考：仓库历史版本（MIT）中的同名路线与节点 https://github.com/mituan-ai/shanhai-wander/tree/6c0340c04f2fcf1813169b931d16375957fc6bc6；本版重新编排天数和展示，未继承其核验结论。"
+  },
+  {
+    "slug": "wanzhe-sky-road",
+    "title": "皖浙天路",
+    "subtitle": "在徽州古村和梯田之间慢慢走",
+    "region": "华东",
+    "category": "山野秘境",
+    "days": 2,
+    "distance_km": 100,
+    "season": "春、秋",
+    "difficulty": "适中",
+    "description": "在徽州古村和梯田之间慢慢走。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "梯田",
+      "徽派古村",
+      "周末出发"
+    ],
+    "stops": [
+      {
+        "id": "wanzhe-sky-road-1",
+        "name": "家朋乡磡头村",
+        "lng": 118.816261,
+        "lat": 30.238646,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "家朋乡磡头村"
+      },
+      {
+        "id": "wanzhe-sky-road-2",
+        "name": "梅干岭观景台",
+        "lng": 118.809458,
+        "lat": 30.226824,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 40,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "梅干岭观景台"
+      },
+      {
+        "id": "wanzhe-sky-road-3",
+        "name": "尚村",
+        "lng": 118.794352,
+        "lat": 30.209244,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "尚村"
+      },
+      {
+        "id": "wanzhe-sky-road-4",
+        "name": "山云岭观景点",
+        "lng": 118.823117,
+        "lat": 30.186404,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 30,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "山云岭观景点"
+      },
+      {
+        "id": "wanzhe-sky-road-5",
+        "name": "荆州乡",
+        "lng": 118.868447,
+        "lat": 30.191125,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "荆州乡"
+      },
+      {
+        "id": "wanzhe-sky-road-6",
+        "name": "岛石镇",
+        "lng": 118.950375,
+        "lat": 30.290131,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "岛石镇"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 参考：仓库历史版本（MIT）中的同名路线与节点 https://github.com/mituan-ai/shanhai-wander/tree/6c0340c04f2fcf1813169b931d16375957fc6bc6；本版重新编排天数和展示，未继承其核验结论。"
+  },
+  {
+    "slug": "zhexi-sky-road",
+    "title": "浙西天路",
+    "subtitle": "沿着山脊，寻找一整片云海",
+    "region": "华东",
+    "category": "山野秘境",
+    "days": 2,
+    "distance_km": 140,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "沿着山脊，寻找一整片云海。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "山脊公路",
+      "短途",
+      "摄影"
+    ],
+    "stops": [
+      {
+        "id": "zhexi-sky-road-1",
+        "name": "华光潭村",
+        "lng": 119.007651,
+        "lat": 30.29064,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "华光潭村"
+      },
+      {
+        "id": "zhexi-sky-road-2",
+        "name": "太子尖驿站",
+        "lng": 118.897919,
+        "lat": 30.175219,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "太子尖驿站"
+      },
+      {
+        "id": "zhexi-sky-road-3",
+        "name": "浪广村",
+        "lng": 118.875596,
+        "lat": 30.164972,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "浪广村"
+      },
+      {
+        "id": "zhexi-sky-road-4",
+        "name": "颊口村",
+        "lng": 119.036593,
+        "lat": 30.12981,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "颊口村"
+      },
+      {
+        "id": "zhexi-sky-road-5",
+        "name": "龙岗镇",
+        "lng": 119.096367,
+        "lat": 30.209485,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "龙岗镇"
+      },
+      {
+        "id": "zhexi-sky-road-6",
+        "name": "华光潭村",
+        "lng": 119.007651,
+        "lat": 30.29064,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "华光潭村"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 参考：仓库历史版本（MIT）中的同名路线与节点 https://github.com/mituan-ai/shanhai-wander/tree/6c0340c04f2fcf1813169b931d16375957fc6bc6；本版重新编排天数和展示，未继承其核验结论。"
+  },
+  {
+    "slug": "wanzhe-route-one",
+    "title": "皖浙1号公路",
+    "subtitle": "从徽州老街，开进新安江的画里",
+    "region": "华东",
+    "category": "人文寻访",
+    "days": 3,
+    "distance_km": 190,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "从徽州老街，开进新安江的画里。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "沿江公路",
+      "徽州",
+      "古城"
+    ],
+    "stops": [
+      {
+        "id": "wanzhe-route-one-1",
+        "name": "屯溪老街",
+        "lng": 118.302443,
+        "lat": 29.708871,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 120,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "屯溪老街"
+      },
+      {
+        "id": "wanzhe-route-one-2",
+        "name": "徽州古城",
+        "lng": 118.436772,
+        "lat": 29.86602,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 120,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "徽州古城"
+      },
+      {
+        "id": "wanzhe-route-one-3",
+        "name": "深渡港",
+        "lng": 118.618353,
+        "lat": 29.862479,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "深渡港"
+      },
+      {
+        "id": "wanzhe-route-one-4",
+        "name": "街口镇",
+        "lng": 118.727216,
+        "lat": 29.747762,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "街口镇"
+      },
+      {
+        "id": "wanzhe-route-one-5",
+        "name": "威坪镇",
+        "lng": 118.795938,
+        "lat": 29.725128,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "威坪镇"
+      },
+      {
+        "id": "wanzhe-route-one-6",
+        "name": "千岛湖镇",
+        "lng": 119.078234,
+        "lat": 29.606922,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "千岛湖镇"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 参考：仓库历史版本（MIT）中的同名路线与节点 https://github.com/mituan-ai/shanhai-wander/tree/6c0340c04f2fcf1813169b931d16375957fc6bc6；本版重新编排天数和展示，未继承其核验结论。"
+  },
+  {
+    "slug": "qiandaohu-ring",
+    "title": "环千岛湖公路",
+    "subtitle": "让湖风，把忙碌的日子吹慢一点",
+    "region": "华东",
+    "category": "湖光山色",
+    "days": 3,
+    "distance_km": 190,
+    "season": "春、夏、秋",
+    "difficulty": "轻松",
+    "description": "让湖风，把忙碌的日子吹慢一点。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "环湖",
+      "亲子",
+      "轻松自驾"
+    ],
+    "stops": [
+      {
+        "id": "qiandaohu-ring-1",
+        "name": "千岛湖镇",
+        "lng": 119.078234,
+        "lat": 29.606922,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "千岛湖镇"
+      },
+      {
+        "id": "qiandaohu-ring-2",
+        "name": "上江埠大桥",
+        "lng": 118.972877,
+        "lat": 29.529786,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 30,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "上江埠大桥"
+      },
+      {
+        "id": "qiandaohu-ring-3",
+        "name": "安阳乡",
+        "lng": 118.831738,
+        "lat": 29.421899,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "安阳乡"
+      },
+      {
+        "id": "qiandaohu-ring-4",
+        "name": "汾口镇",
+        "lng": 118.558455,
+        "lat": 29.427915,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "汾口镇"
+      },
+      {
+        "id": "qiandaohu-ring-5",
+        "name": "芹川古村",
+        "lng": 118.609136,
+        "lat": 29.517502,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 90,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "芹川古村"
+      },
+      {
+        "id": "qiandaohu-ring-6",
+        "name": "姜家镇",
+        "lng": 118.663006,
+        "lat": 29.477634,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "姜家镇"
+      },
+      {
+        "id": "qiandaohu-ring-7",
+        "name": "千岛湖镇",
+        "lng": 119.078234,
+        "lat": 29.606922,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "千岛湖镇"
+      }
+    ],
+    "cover_style": "lake",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 参考：仓库历史版本（MIT）中的同名路线与节点 https://github.com/mituan-ai/shanhai-wander/tree/6c0340c04f2fcf1813169b931d16375957fc6bc6；本版重新编排天数和展示，未继承其核验结论。"
+  },
+  {
+    "slug": "hainan-coastal-loop",
+    "title": "海南环岛海岸线",
+    "subtitle": "一路向海，把日落排进行程",
+    "region": "华南",
+    "category": "海岸公路",
+    "days": 7,
+    "distance_km": 1050,
+    "season": "秋、冬、春",
+    "difficulty": "轻松",
+    "description": "一路向海，把日落排进行程。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "环岛",
+      "海边日落",
+      "亲子"
+    ],
+    "stops": [
+      {
+        "id": "hainan-coastal-loop-1",
+        "name": "海口",
+        "lng": 110.198,
+        "lat": 20.044,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "海口"
+      },
+      {
+        "id": "hainan-coastal-loop-2",
+        "name": "文昌",
+        "lng": 110.798,
+        "lat": 19.544,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "文昌"
+      },
+      {
+        "id": "hainan-coastal-loop-3",
+        "name": "博鳌镇",
+        "lng": 110.587,
+        "lat": 19.159,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "博鳌镇"
+      },
+      {
+        "id": "hainan-coastal-loop-4",
+        "name": "万宁",
+        "lng": 110.389,
+        "lat": 18.796,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "万宁"
+      },
+      {
+        "id": "hainan-coastal-loop-5",
+        "name": "陵水",
+        "lng": 110.037,
+        "lat": 18.506,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "陵水"
+      },
+      {
+        "id": "hainan-coastal-loop-6",
+        "name": "三亚",
+        "lng": 109.512,
+        "lat": 18.252,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "三亚"
+      },
+      {
+        "id": "hainan-coastal-loop-7",
+        "name": "乐东",
+        "lng": 109.173,
+        "lat": 18.75,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乐东"
+      },
+      {
+        "id": "hainan-coastal-loop-8",
+        "name": "儋州",
+        "lng": 109.58,
+        "lat": 19.521,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "儋州"
+      },
+      {
+        "id": "hainan-coastal-loop-9",
+        "name": "海口",
+        "lng": 110.198,
+        "lat": 20.044,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "海口"
+      }
+    ],
+    "cover_style": "coast",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "dali-lijiang-shangrila",
+    "title": "滇西北雪山古城线",
+    "subtitle": "从洱海的风，到雪山下的古城",
+    "region": "西南",
+    "category": "湖光山色",
+    "days": 6,
+    "distance_km": 550,
+    "season": "春、秋",
+    "difficulty": "适中",
+    "description": "用六天串起大理、沙溪、丽江与香格里拉。海拔逐步升高，按身体状态调整节奏；雪山与峡谷活动另留充足时间。",
+    "tags": [
+      "洱海",
+      "古城漫步",
+      "雪山"
+    ],
+    "stops": [
+      {
+        "id": "dali-lijiang-shangrila-1",
+        "name": "大理古城",
+        "lng": 100.165,
+        "lat": 25.694,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "大理古城"
+      },
+      {
+        "id": "dali-lijiang-shangrila-2",
+        "name": "双廊镇",
+        "lng": 100.193,
+        "lat": 25.907,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "双廊镇"
+      },
+      {
+        "id": "dali-lijiang-shangrila-3",
+        "name": "沙溪古镇",
+        "lng": 99.85,
+        "lat": 26.316,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 150,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "沙溪古镇"
+      },
+      {
+        "id": "dali-lijiang-shangrila-4",
+        "name": "丽江古城",
+        "lng": 100.234,
+        "lat": 26.873,
+        "day": 4,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "丽江古城"
+      },
+      {
+        "id": "dali-lijiang-shangrila-5",
+        "name": "虎跳峡镇",
+        "lng": 100.106,
+        "lat": 27.184,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "虎跳峡镇"
+      },
+      {
+        "id": "dali-lijiang-shangrila-6",
+        "name": "香格里拉市",
+        "lng": 99.703,
+        "lat": 27.819,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "香格里拉市"
+      }
+    ],
+    "cover_style": "lake",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "qinghai-gansu-loop",
+    "title": "青甘大环线",
+    "subtitle": "湖泊、戈壁和星空，一次收进眼里",
+    "region": "西北",
+    "category": "大漠远行",
+    "days": 8,
+    "distance_km": 2600,
+    "season": "夏、秋",
+    "difficulty": "进阶",
+    "description": "为长距离驾驶预留完整假期，把青海湖与河西走廊放进同一段旅程。高原段、偏远路段及景区预约需提前确认，必要时增加休整日。",
+    "tags": [
+      "高原湖泊",
+      "戈壁",
+      "长途自驾"
+    ],
+    "stops": [
+      {
+        "id": "qinghai-gansu-loop-1",
+        "name": "西宁",
+        "lng": 101.778,
+        "lat": 36.617,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "西宁"
+      },
+      {
+        "id": "qinghai-gansu-loop-2",
+        "name": "青海湖二郎剑景区",
+        "lng": 100.491,
+        "lat": 36.598,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 120,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "青海湖二郎剑景区"
+      },
+      {
+        "id": "qinghai-gansu-loop-3",
+        "name": "茶卡镇",
+        "lng": 99.082,
+        "lat": 36.789,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "茶卡镇"
+      },
+      {
+        "id": "qinghai-gansu-loop-4",
+        "name": "大柴旦镇",
+        "lng": 95.363,
+        "lat": 37.855,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "大柴旦镇"
+      },
+      {
+        "id": "qinghai-gansu-loop-5",
+        "name": "敦煌",
+        "lng": 94.662,
+        "lat": 40.142,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "敦煌"
+      },
+      {
+        "id": "qinghai-gansu-loop-6",
+        "name": "鸣沙山月牙泉景区",
+        "lng": 94.667,
+        "lat": 40.087,
+        "day": 5,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "鸣沙山月牙泉景区"
+      },
+      {
+        "id": "qinghai-gansu-loop-7",
+        "name": "嘉峪关",
+        "lng": 98.29,
+        "lat": 39.773,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "嘉峪关"
+      },
+      {
+        "id": "qinghai-gansu-loop-8",
+        "name": "张掖",
+        "lng": 100.449,
+        "lat": 38.926,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "张掖"
+      },
+      {
+        "id": "qinghai-gansu-loop-9",
+        "name": "祁连县",
+        "lng": 100.254,
+        "lat": 38.177,
+        "day": 8,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "祁连县"
+      },
+      {
+        "id": "qinghai-gansu-loop-10",
+        "name": "西宁",
+        "lng": 101.778,
+        "lat": 36.617,
+        "day": 8,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "西宁"
+      }
+    ],
+    "cover_style": "desert",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "western-sichuan-loop",
+    "title": "川西雪山小环线",
+    "subtitle": "转过山口，就是另一幅风景",
+    "region": "西南",
+    "category": "山野秘境",
+    "days": 7,
+    "distance_km": 1200,
+    "season": "夏、秋",
+    "difficulty": "进阶",
+    "description": "从成都出发，经康定、新都桥与丹巴，回到四姑娘山方向。海拔变化较大，模板不包含徒步安排，请按身体和天气状况调整。",
+    "tags": [
+      "雪山",
+      "高原",
+      "摄影"
+    ],
+    "stops": [
+      {
+        "id": "western-sichuan-loop-1",
+        "name": "成都",
+        "lng": 104.066,
+        "lat": 30.573,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "成都"
+      },
+      {
+        "id": "western-sichuan-loop-2",
+        "name": "康定",
+        "lng": 101.957,
+        "lat": 29.998,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "康定"
+      },
+      {
+        "id": "western-sichuan-loop-3",
+        "name": "新都桥镇",
+        "lng": 101.492,
+        "lat": 30.044,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "新都桥镇"
+      },
+      {
+        "id": "western-sichuan-loop-4",
+        "name": "塔公镇",
+        "lng": 101.527,
+        "lat": 30.32,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "塔公镇"
+      },
+      {
+        "id": "western-sichuan-loop-5",
+        "name": "丹巴县",
+        "lng": 101.89,
+        "lat": 30.879,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "丹巴县"
+      },
+      {
+        "id": "western-sichuan-loop-6",
+        "name": "四姑娘山镇",
+        "lng": 102.842,
+        "lat": 31.001,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "四姑娘山镇"
+      },
+      {
+        "id": "western-sichuan-loop-7",
+        "name": "都江堰",
+        "lng": 103.647,
+        "lat": 30.989,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "都江堰"
+      },
+      {
+        "id": "western-sichuan-loop-8",
+        "name": "成都",
+        "lng": 104.066,
+        "lat": 30.573,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "成都"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "hulunbuir-grassland",
+    "title": "呼伦贝尔草原环线",
+    "subtitle": "把车窗，变成一望无际的绿色",
+    "region": "东北",
+    "category": "草原天路",
+    "days": 6,
+    "distance_km": 1100,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "把车窗，变成一望无际的绿色。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "草原",
+      "边境小镇",
+      "亲子"
+    ],
+    "stops": [
+      {
+        "id": "hulunbuir-grassland-1",
+        "name": "海拉尔",
+        "lng": 119.736,
+        "lat": 49.212,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "海拉尔"
+      },
+      {
+        "id": "hulunbuir-grassland-2",
+        "name": "额尔古纳",
+        "lng": 120.18,
+        "lat": 50.243,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "额尔古纳"
+      },
+      {
+        "id": "hulunbuir-grassland-3",
+        "name": "恩和俄罗斯族民族乡",
+        "lng": 119.94,
+        "lat": 50.435,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "恩和俄罗斯族民族乡"
+      },
+      {
+        "id": "hulunbuir-grassland-4",
+        "name": "室韦",
+        "lng": 119.903,
+        "lat": 51.338,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "室韦"
+      },
+      {
+        "id": "hulunbuir-grassland-5",
+        "name": "黑山头镇",
+        "lng": 119.526,
+        "lat": 50.217,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "黑山头镇"
+      },
+      {
+        "id": "hulunbuir-grassland-6",
+        "name": "满洲里",
+        "lng": 117.379,
+        "lat": 49.598,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "满洲里"
+      },
+      {
+        "id": "hulunbuir-grassland-7",
+        "name": "海拉尔",
+        "lng": 119.736,
+        "lat": 49.212,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "海拉尔"
+      }
+    ],
+    "cover_style": "grassland",
+    "featured": true,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "g318-chengdu-lhasa",
+    "title": "G318川藏南线",
+    "subtitle": "给自己两周，沿山河慢慢向西",
+    "region": "西南",
+    "category": "山野秘境",
+    "days": 14,
+    "distance_km": 2250,
+    "season": "春、夏、秋",
+    "difficulty": "进阶",
+    "description": "城市级锚点组成的川藏南线灵感，不是逐弯导航轨迹。需根据海拔适应、施工、天气和实际补给条件增加休整日，避免赶路。",
+    "tags": [
+      "长途穿越",
+      "雪山",
+      "需留休整日"
+    ],
+    "stops": [
+      {
+        "id": "g318-chengdu-lhasa-1",
+        "name": "成都",
+        "lng": 104.066,
+        "lat": 30.573,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "成都"
+      },
+      {
+        "id": "g318-chengdu-lhasa-2",
+        "name": "雅安",
+        "lng": 103.043,
+        "lat": 30.011,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "雅安"
+      },
+      {
+        "id": "g318-chengdu-lhasa-3",
+        "name": "康定",
+        "lng": 101.957,
+        "lat": 29.998,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "康定"
+      },
+      {
+        "id": "g318-chengdu-lhasa-4",
+        "name": "新都桥镇",
+        "lng": 101.492,
+        "lat": 30.044,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "新都桥镇"
+      },
+      {
+        "id": "g318-chengdu-lhasa-5",
+        "name": "雅江县",
+        "lng": 101.015,
+        "lat": 30.032,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "雅江县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-6",
+        "name": "理塘县",
+        "lng": 100.27,
+        "lat": 29.996,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "理塘县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-7",
+        "name": "巴塘县",
+        "lng": 99.11,
+        "lat": 30.005,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "巴塘县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-8",
+        "name": "芒康县",
+        "lng": 98.594,
+        "lat": 29.68,
+        "day": 8,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "芒康县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-9",
+        "name": "左贡县",
+        "lng": 97.847,
+        "lat": 29.671,
+        "day": 9,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "左贡县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-10",
+        "name": "八宿县",
+        "lng": 96.917,
+        "lat": 30.053,
+        "day": 10,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "八宿县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-11",
+        "name": "波密县",
+        "lng": 95.768,
+        "lat": 29.86,
+        "day": 11,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "波密县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-12",
+        "name": "林芝",
+        "lng": 94.362,
+        "lat": 29.655,
+        "day": 12,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "林芝"
+      },
+      {
+        "id": "g318-chengdu-lhasa-13",
+        "name": "工布江达县",
+        "lng": 93.246,
+        "lat": 29.886,
+        "day": 13,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "工布江达县"
+      },
+      {
+        "id": "g318-chengdu-lhasa-14",
+        "name": "拉萨",
+        "lng": 91.14,
+        "lat": 29.645,
+        "day": 14,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "拉萨"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "fujian-coastal-road",
+    "title": "福建山海慢行线",
+    "subtitle": "从海岛灯塔，到闽南老城",
+    "region": "华东",
+    "category": "海岸公路",
+    "days": 5,
+    "distance_km": 650,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "从海岛灯塔，到闽南老城。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "海岸",
+      "闽南文化",
+      "美食"
+    ],
+    "stops": [
+      {
+        "id": "fujian-coastal-road-1",
+        "name": "福州",
+        "lng": 119.296,
+        "lat": 26.074,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "福州"
+      },
+      {
+        "id": "fujian-coastal-road-2",
+        "name": "平潭县",
+        "lng": 119.79,
+        "lat": 25.499,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "平潭县"
+      },
+      {
+        "id": "fujian-coastal-road-3",
+        "name": "泉州古城",
+        "lng": 118.589,
+        "lat": 24.911,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "泉州古城"
+      },
+      {
+        "id": "fujian-coastal-road-4",
+        "name": "厦门",
+        "lng": 118.089,
+        "lat": 24.479,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "厦门"
+      },
+      {
+        "id": "fujian-coastal-road-5",
+        "name": "东山县",
+        "lng": 117.43,
+        "lat": 23.702,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "东山县"
+      }
+    ],
+    "cover_style": "coast",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "shandong-coastal-road",
+    "title": "山东半岛海岸线",
+    "subtitle": "从青岛的海风，开到胶东的晨光",
+    "region": "华东",
+    "category": "海岸公路",
+    "days": 6,
+    "distance_km": 900,
+    "season": "春、夏、秋",
+    "difficulty": "轻松",
+    "description": "从青岛的海风，开到胶东的晨光。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "海边",
+      "亲子",
+      "海鲜"
+    ],
+    "stops": [
+      {
+        "id": "shandong-coastal-road-1",
+        "name": "青岛",
+        "lng": 120.383,
+        "lat": 36.067,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "青岛"
+      },
+      {
+        "id": "shandong-coastal-road-2",
+        "name": "崂山景区",
+        "lng": 120.63,
+        "lat": 36.19,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "崂山景区"
+      },
+      {
+        "id": "shandong-coastal-road-3",
+        "name": "海阳市",
+        "lng": 121.159,
+        "lat": 36.776,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "海阳市"
+      },
+      {
+        "id": "shandong-coastal-road-4",
+        "name": "荣成市",
+        "lng": 122.486,
+        "lat": 37.166,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "荣成市"
+      },
+      {
+        "id": "shandong-coastal-road-5",
+        "name": "威海",
+        "lng": 122.121,
+        "lat": 37.513,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "威海"
+      },
+      {
+        "id": "shandong-coastal-road-6",
+        "name": "烟台",
+        "lng": 121.447,
+        "lat": 37.464,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "烟台"
+      },
+      {
+        "id": "shandong-coastal-road-7",
+        "name": "蓬莱区",
+        "lng": 120.758,
+        "lat": 37.811,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "蓬莱区"
+      }
+    ],
+    "cover_style": "coast",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "guangdong-eastern-coast",
+    "title": "粤东海岸与潮汕线",
+    "subtitle": "海边走走，老城吃吃",
+    "region": "华南",
+    "category": "海岸公路",
+    "days": 4,
+    "distance_km": 600,
+    "season": "春、秋、冬",
+    "difficulty": "轻松",
+    "description": "海边走走，老城吃吃。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "潮汕美食",
+      "海岛",
+      "古城"
+    ],
+    "stops": [
+      {
+        "id": "guangdong-eastern-coast-1",
+        "name": "惠州",
+        "lng": 114.416,
+        "lat": 23.111,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "惠州"
+      },
+      {
+        "id": "guangdong-eastern-coast-2",
+        "name": "汕尾",
+        "lng": 115.376,
+        "lat": 22.787,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "汕尾"
+      },
+      {
+        "id": "guangdong-eastern-coast-3",
+        "name": "汕头",
+        "lng": 116.682,
+        "lat": 23.354,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "汕头"
+      },
+      {
+        "id": "guangdong-eastern-coast-4",
+        "name": "南澳县",
+        "lng": 117.023,
+        "lat": 23.421,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "南澳县"
+      },
+      {
+        "id": "guangdong-eastern-coast-5",
+        "name": "潮州古城",
+        "lng": 116.633,
+        "lat": 23.668,
+        "day": 4,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "潮州古城"
+      }
+    ],
+    "cover_style": "coast",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "guangxi-guilin-yangshuo",
+    "title": "桂林阳朔山水线",
+    "subtitle": "沿着喀斯特山峰，寻找水边的小镇",
+    "region": "华南",
+    "category": "湖光山色",
+    "days": 5,
+    "distance_km": 550,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "沿着喀斯特山峰，寻找水边的小镇。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "山水",
+      "梯田",
+      "慢旅行"
+    ],
+    "stops": [
+      {
+        "id": "guangxi-guilin-yangshuo-1",
+        "name": "桂林",
+        "lng": 110.29,
+        "lat": 25.273,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "桂林"
+      },
+      {
+        "id": "guangxi-guilin-yangshuo-2",
+        "name": "龙胜各族自治县",
+        "lng": 110.011,
+        "lat": 25.798,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "龙胜各族自治县"
+      },
+      {
+        "id": "guangxi-guilin-yangshuo-3",
+        "name": "龙脊梯田景区",
+        "lng": 110.139,
+        "lat": 25.756,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "龙脊梯田景区"
+      },
+      {
+        "id": "guangxi-guilin-yangshuo-4",
+        "name": "兴坪古镇",
+        "lng": 110.531,
+        "lat": 24.922,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 120,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "兴坪古镇"
+      },
+      {
+        "id": "guangxi-guilin-yangshuo-5",
+        "name": "阳朔县",
+        "lng": 110.497,
+        "lat": 24.778,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "阳朔县"
+      },
+      {
+        "id": "guangxi-guilin-yangshuo-6",
+        "name": "桂林",
+        "lng": 110.29,
+        "lat": 25.273,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "桂林"
+      }
+    ],
+    "cover_style": "lake",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "hexi-silk-road",
+    "title": "河西走廊丝路线",
+    "subtitle": "跟着古城、石窟和沙漠一路向西",
+    "region": "西北",
+    "category": "人文寻访",
+    "days": 7,
+    "distance_km": 1200,
+    "season": "春、秋",
+    "difficulty": "适中",
+    "description": "跟着古城、石窟和沙漠一路向西。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "丝绸之路",
+      "历史",
+      "戈壁"
+    ],
+    "stops": [
+      {
+        "id": "hexi-silk-road-1",
+        "name": "兰州",
+        "lng": 103.835,
+        "lat": 36.062,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "兰州"
+      },
+      {
+        "id": "hexi-silk-road-2",
+        "name": "武威",
+        "lng": 102.638,
+        "lat": 37.929,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "武威"
+      },
+      {
+        "id": "hexi-silk-road-3",
+        "name": "张掖",
+        "lng": 100.449,
+        "lat": 38.926,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "张掖"
+      },
+      {
+        "id": "hexi-silk-road-4",
+        "name": "临泽县",
+        "lng": 100.164,
+        "lat": 39.153,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "临泽县"
+      },
+      {
+        "id": "hexi-silk-road-5",
+        "name": "嘉峪关",
+        "lng": 98.29,
+        "lat": 39.773,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "嘉峪关"
+      },
+      {
+        "id": "hexi-silk-road-6",
+        "name": "瓜州县",
+        "lng": 95.783,
+        "lat": 40.52,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "瓜州县"
+      },
+      {
+        "id": "hexi-silk-road-7",
+        "name": "敦煌",
+        "lng": 94.662,
+        "lat": 40.142,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "敦煌"
+      }
+    ],
+    "cover_style": "desert",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "duku-highway",
+    "title": "独库公路南北穿越",
+    "subtitle": "用几天，经过不同季节的山野",
+    "region": "西北",
+    "category": "山野秘境",
+    "days": 5,
+    "distance_km": 600,
+    "season": "开放季节以官方公告为准",
+    "difficulty": "进阶",
+    "description": "以独山子至库车的主要节点编排行程。道路季节性开放，车辆条件与通行时间可能调整，须先核实最新公告，再决定出发。",
+    "tags": [
+      "高山公路",
+      "草原",
+      "季节通行"
+    ],
+    "stops": [
+      {
+        "id": "duku-highway-1",
+        "name": "独山子区",
+        "lng": 84.886,
+        "lat": 44.329,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "独山子区"
+      },
+      {
+        "id": "duku-highway-2",
+        "name": "乔尔玛",
+        "lng": 84.345,
+        "lat": 43.678,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乔尔玛"
+      },
+      {
+        "id": "duku-highway-3",
+        "name": "那拉提镇",
+        "lng": 84.041,
+        "lat": 43.331,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "那拉提镇"
+      },
+      {
+        "id": "duku-highway-4",
+        "name": "巴音布鲁克镇",
+        "lng": 84.151,
+        "lat": 43.027,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "巴音布鲁克镇"
+      },
+      {
+        "id": "duku-highway-5",
+        "name": "库车市",
+        "lng": 82.987,
+        "lat": 41.715,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "库车市"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "ili-grassland-loop",
+    "title": "伊犁河谷草原线",
+    "subtitle": "在河谷和草原之间，多住一晚",
+    "region": "西北",
+    "category": "草原天路",
+    "days": 7,
+    "distance_km": 1400,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "在河谷和草原之间，多住一晚。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "草原",
+      "河谷",
+      "环线"
+    ],
+    "stops": [
+      {
+        "id": "ili-grassland-loop-1",
+        "name": "伊宁市",
+        "lng": 81.324,
+        "lat": 43.917,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "伊宁市"
+      },
+      {
+        "id": "ili-grassland-loop-2",
+        "name": "赛里木湖景区",
+        "lng": 81.179,
+        "lat": 44.595,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "赛里木湖景区"
+      },
+      {
+        "id": "ili-grassland-loop-3",
+        "name": "霍城县",
+        "lng": 80.879,
+        "lat": 44.056,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "霍城县"
+      },
+      {
+        "id": "ili-grassland-loop-4",
+        "name": "昭苏县",
+        "lng": 81.131,
+        "lat": 43.158,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "昭苏县"
+      },
+      {
+        "id": "ili-grassland-loop-5",
+        "name": "特克斯县",
+        "lng": 81.835,
+        "lat": 43.218,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "特克斯县"
+      },
+      {
+        "id": "ili-grassland-loop-6",
+        "name": "新源县",
+        "lng": 83.26,
+        "lat": 43.43,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "新源县"
+      },
+      {
+        "id": "ili-grassland-loop-7",
+        "name": "那拉提镇",
+        "lng": 84.041,
+        "lat": 43.331,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "那拉提镇"
+      },
+      {
+        "id": "ili-grassland-loop-8",
+        "name": "伊宁市",
+        "lng": 81.324,
+        "lat": 43.917,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "伊宁市"
+      }
+    ],
+    "cover_style": "grassland",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "northern-xinjiang-kanas",
+    "title": "北疆喀纳斯环线",
+    "subtitle": "从戈壁小城，走进森林与湖泊",
+    "region": "西北",
+    "category": "湖光山色",
+    "days": 7,
+    "distance_km": 1900,
+    "season": "夏、秋",
+    "difficulty": "进阶",
+    "description": "用城镇及景区接驳区域作为规划节点。景区内部是否允许自驾、停车和接驳安排请先确认；返程较长，可增加中途住宿。",
+    "tags": [
+      "森林",
+      "湖泊",
+      "长途自驾"
+    ],
+    "stops": [
+      {
+        "id": "northern-xinjiang-kanas-1",
+        "name": "乌鲁木齐",
+        "lng": 87.617,
+        "lat": 43.826,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乌鲁木齐"
+      },
+      {
+        "id": "northern-xinjiang-kanas-2",
+        "name": "克拉玛依",
+        "lng": 84.889,
+        "lat": 45.579,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "克拉玛依"
+      },
+      {
+        "id": "northern-xinjiang-kanas-3",
+        "name": "布尔津县",
+        "lng": 86.875,
+        "lat": 47.701,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "布尔津县"
+      },
+      {
+        "id": "northern-xinjiang-kanas-4",
+        "name": "贾登峪",
+        "lng": 87.116,
+        "lat": 48.487,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "贾登峪"
+      },
+      {
+        "id": "northern-xinjiang-kanas-5",
+        "name": "禾木村",
+        "lng": 87.441,
+        "lat": 48.572,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "禾木村"
+      },
+      {
+        "id": "northern-xinjiang-kanas-6",
+        "name": "阿勒泰市",
+        "lng": 88.132,
+        "lat": 47.828,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "阿勒泰市"
+      },
+      {
+        "id": "northern-xinjiang-kanas-7",
+        "name": "乌鲁木齐",
+        "lng": 87.617,
+        "lat": 43.826,
+        "day": 7,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乌鲁木齐"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "chifeng-grassland",
+    "title": "赤峰乌兰布统草原线",
+    "subtitle": "草原起伏处，留一段不赶路的时间",
+    "region": "华北",
+    "category": "草原天路",
+    "days": 4,
+    "distance_km": 650,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "草原起伏处，留一段不赶路的时间。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "草原",
+      "摄影",
+      "环线"
+    ],
+    "stops": [
+      {
+        "id": "chifeng-grassland-1",
+        "name": "赤峰",
+        "lng": 118.887,
+        "lat": 42.257,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "赤峰"
+      },
+      {
+        "id": "chifeng-grassland-2",
+        "name": "克什克腾旗经棚镇",
+        "lng": 117.545,
+        "lat": 43.265,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "克什克腾旗经棚镇"
+      },
+      {
+        "id": "chifeng-grassland-3",
+        "name": "热水塘镇",
+        "lng": 117.975,
+        "lat": 43.426,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "热水塘镇"
+      },
+      {
+        "id": "chifeng-grassland-4",
+        "name": "乌兰布统乡",
+        "lng": 117.218,
+        "lat": 42.519,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乌兰布统乡"
+      },
+      {
+        "id": "chifeng-grassland-5",
+        "name": "赤峰",
+        "lng": 118.887,
+        "lat": 42.257,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "赤峰"
+      }
+    ],
+    "cover_style": "grassland",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "zhangbei-grass-sky-road",
+    "title": "张北草原天路",
+    "subtitle": "向北两三天，把风景留在车窗外",
+    "region": "华北",
+    "category": "草原天路",
+    "days": 3,
+    "distance_km": 400,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "向北两三天，把风景留在车窗外。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "短途",
+      "草原公路",
+      "京津冀周边"
+    ],
+    "stops": [
+      {
+        "id": "zhangbei-grass-sky-road-1",
+        "name": "张家口",
+        "lng": 114.887,
+        "lat": 40.769,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "张家口"
+      },
+      {
+        "id": "zhangbei-grass-sky-road-2",
+        "name": "张北县",
+        "lng": 114.715,
+        "lat": 41.151,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "张北县"
+      },
+      {
+        "id": "zhangbei-grass-sky-road-3",
+        "name": "野狐岭",
+        "lng": 114.626,
+        "lat": 40.994,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "野狐岭"
+      },
+      {
+        "id": "zhangbei-grass-sky-road-4",
+        "name": "桦皮岭",
+        "lng": 115.308,
+        "lat": 41.123,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "桦皮岭"
+      },
+      {
+        "id": "zhangbei-grass-sky-road-5",
+        "name": "崇礼区",
+        "lng": 115.283,
+        "lat": 40.975,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "崇礼区"
+      },
+      {
+        "id": "zhangbei-grass-sky-road-6",
+        "name": "张家口",
+        "lng": 114.887,
+        "lat": 40.769,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "张家口"
+      }
+    ],
+    "cover_style": "grassland",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "shanxi-ancient-architecture",
+    "title": "山西古建寻访线",
+    "subtitle": "从古城街巷，走进千年的屋檐下",
+    "region": "华北",
+    "category": "人文寻访",
+    "days": 6,
+    "distance_km": 900,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "从古城街巷，走进千年的屋檐下。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "古建",
+      "古城",
+      "文化之旅"
+    ],
+    "stops": [
+      {
+        "id": "shanxi-ancient-architecture-1",
+        "name": "大同",
+        "lng": 113.3,
+        "lat": 40.077,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "大同"
+      },
+      {
+        "id": "shanxi-ancient-architecture-2",
+        "name": "浑源县",
+        "lng": 113.699,
+        "lat": 39.699,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "浑源县"
+      },
+      {
+        "id": "shanxi-ancient-architecture-3",
+        "name": "应县",
+        "lng": 113.191,
+        "lat": 39.554,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "应县"
+      },
+      {
+        "id": "shanxi-ancient-architecture-4",
+        "name": "忻州",
+        "lng": 112.734,
+        "lat": 38.417,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "忻州"
+      },
+      {
+        "id": "shanxi-ancient-architecture-5",
+        "name": "太原",
+        "lng": 112.549,
+        "lat": 37.857,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "太原"
+      },
+      {
+        "id": "shanxi-ancient-architecture-6",
+        "name": "平遥古城",
+        "lng": 112.176,
+        "lat": 37.19,
+        "day": 5,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "平遥古城"
+      },
+      {
+        "id": "shanxi-ancient-architecture-7",
+        "name": "临汾",
+        "lng": 111.519,
+        "lat": 36.088,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "临汾"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "henan-ancient-capitals",
+    "title": "河南古都寻访线",
+    "subtitle": "用一段旅行，翻开中原的历史",
+    "region": "华中",
+    "category": "人文寻访",
+    "days": 5,
+    "distance_km": 650,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "用一段旅行，翻开中原的历史。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "博物馆",
+      "古都",
+      "亲子"
+    ],
+    "stops": [
+      {
+        "id": "henan-ancient-capitals-1",
+        "name": "安阳",
+        "lng": 114.393,
+        "lat": 36.098,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "安阳"
+      },
+      {
+        "id": "henan-ancient-capitals-2",
+        "name": "开封",
+        "lng": 114.308,
+        "lat": 34.797,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "开封"
+      },
+      {
+        "id": "henan-ancient-capitals-3",
+        "name": "郑州",
+        "lng": 113.625,
+        "lat": 34.747,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "郑州"
+      },
+      {
+        "id": "henan-ancient-capitals-4",
+        "name": "登封",
+        "lng": 113.05,
+        "lat": 34.454,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "登封"
+      },
+      {
+        "id": "henan-ancient-capitals-5",
+        "name": "洛阳",
+        "lng": 112.454,
+        "lat": 34.62,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "洛阳"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "jiangnan-water-towns",
+    "title": "江南水乡慢游线",
+    "subtitle": "小桥流水之间，给生活按个慢放",
+    "region": "华东",
+    "category": "人文寻访",
+    "days": 4,
+    "distance_km": 450,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "小桥流水之间，给生活按个慢放。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "水乡",
+      "美食",
+      "轻松自驾"
+    ],
+    "stops": [
+      {
+        "id": "jiangnan-water-towns-1",
+        "name": "苏州",
+        "lng": 120.585,
+        "lat": 31.299,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "苏州"
+      },
+      {
+        "id": "jiangnan-water-towns-2",
+        "name": "同里古镇",
+        "lng": 120.722,
+        "lat": 31.159,
+        "day": 1,
+        "kind": "scenic",
+        "stay_minutes": 120,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "同里古镇"
+      },
+      {
+        "id": "jiangnan-water-towns-3",
+        "name": "南浔古镇",
+        "lng": 120.44,
+        "lat": 30.881,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 150,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "南浔古镇"
+      },
+      {
+        "id": "jiangnan-water-towns-4",
+        "name": "乌镇",
+        "lng": 120.489,
+        "lat": 30.747,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "乌镇"
+      },
+      {
+        "id": "jiangnan-water-towns-5",
+        "name": "杭州",
+        "lng": 120.155,
+        "lat": 30.274,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "杭州"
+      }
+    ],
+    "cover_style": "lake",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "guizhou-villages",
+    "title": "黔东南村寨与山水线",
+    "subtitle": "把时间留给鼓楼、稻田和山间小城",
+    "region": "西南",
+    "category": "人文寻访",
+    "days": 6,
+    "distance_km": 1000,
+    "season": "春、夏、秋",
+    "difficulty": "适中",
+    "description": "把时间留给鼓楼、稻田和山间小城。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "村寨",
+      "山水",
+      "民族文化"
+    ],
+    "stops": [
+      {
+        "id": "guizhou-villages-1",
+        "name": "贵阳",
+        "lng": 106.63,
+        "lat": 26.647,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "贵阳"
+      },
+      {
+        "id": "guizhou-villages-2",
+        "name": "凯里",
+        "lng": 107.982,
+        "lat": 26.567,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "凯里"
+      },
+      {
+        "id": "guizhou-villages-3",
+        "name": "西江千户苗寨",
+        "lng": 108.171,
+        "lat": 26.491,
+        "day": 2,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "西江千户苗寨"
+      },
+      {
+        "id": "guizhou-villages-4",
+        "name": "黎平县",
+        "lng": 109.137,
+        "lat": 26.231,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "黎平县"
+      },
+      {
+        "id": "guizhou-villages-5",
+        "name": "肇兴侗寨",
+        "lng": 109.178,
+        "lat": 25.91,
+        "day": 4,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "肇兴侗寨"
+      },
+      {
+        "id": "guizhou-villages-6",
+        "name": "荔波县",
+        "lng": 107.886,
+        "lat": 25.412,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "荔波县"
+      },
+      {
+        "id": "guizhou-villages-7",
+        "name": "贵阳",
+        "lng": 106.63,
+        "lat": 26.647,
+        "day": 6,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "贵阳"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "chongqing-enshi",
+    "title": "渝鄂山城峡谷线",
+    "subtitle": "从山城烟火，开进鄂西群山",
+    "region": "华中",
+    "category": "山野秘境",
+    "days": 5,
+    "distance_km": 750,
+    "season": "春、秋",
+    "difficulty": "适中",
+    "description": "从山城烟火，开进鄂西群山。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "峡谷",
+      "山城",
+      "自驾穿越"
+    ],
+    "stops": [
+      {
+        "id": "chongqing-enshi-1",
+        "name": "重庆",
+        "lng": 106.551,
+        "lat": 29.564,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "重庆"
+      },
+      {
+        "id": "chongqing-enshi-2",
+        "name": "武隆区",
+        "lng": 107.76,
+        "lat": 29.325,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "武隆区"
+      },
+      {
+        "id": "chongqing-enshi-3",
+        "name": "黔江区",
+        "lng": 108.77,
+        "lat": 29.533,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "黔江区"
+      },
+      {
+        "id": "chongqing-enshi-4",
+        "name": "利川市",
+        "lng": 108.936,
+        "lat": 30.29,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "利川市"
+      },
+      {
+        "id": "chongqing-enshi-5",
+        "name": "恩施市",
+        "lng": 109.479,
+        "lat": 30.272,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "恩施市"
+      }
+    ],
+    "cover_style": "mountain",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "changbai-forest-road",
+    "title": "长白山森林慢行线",
+    "subtitle": "沿着林海，走向山间的小镇",
+    "region": "东北",
+    "category": "山野秘境",
+    "days": 4,
+    "distance_km": 550,
+    "season": "夏、秋",
+    "difficulty": "适中",
+    "description": "以长白山周边城镇为节点，留出单独的景区游览时间。天池开放和景区接驳受天气影响，模板不保证入园或观景条件。",
+    "tags": [
+      "森林",
+      "山间小镇",
+      "美食"
+    ],
+    "stops": [
+      {
+        "id": "changbai-forest-road-1",
+        "name": "延吉",
+        "lng": 129.509,
+        "lat": 42.891,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "延吉"
+      },
+      {
+        "id": "changbai-forest-road-2",
+        "name": "和龙市",
+        "lng": 129.01,
+        "lat": 42.547,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "和龙市"
+      },
+      {
+        "id": "changbai-forest-road-3",
+        "name": "二道白河镇",
+        "lng": 128.132,
+        "lat": 42.432,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "二道白河镇"
+      },
+      {
+        "id": "changbai-forest-road-4",
+        "name": "抚松县",
+        "lng": 127.45,
+        "lat": 42.221,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "抚松县"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "liaodong-coast",
+    "title": "辽东半岛海岸线",
+    "subtitle": "从辽河口，到黄海边的城市",
+    "region": "东北",
+    "category": "海岸公路",
+    "days": 5,
+    "distance_km": 900,
+    "season": "春、夏、秋",
+    "difficulty": "轻松",
+    "description": "从辽河口，到黄海边的城市。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "海岸",
+      "城市漫游",
+      "亲子"
+    ],
+    "stops": [
+      {
+        "id": "liaodong-coast-1",
+        "name": "盘锦",
+        "lng": 122.071,
+        "lat": 41.119,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "盘锦"
+      },
+      {
+        "id": "liaodong-coast-2",
+        "name": "营口",
+        "lng": 122.235,
+        "lat": 40.668,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "营口"
+      },
+      {
+        "id": "liaodong-coast-3",
+        "name": "大连",
+        "lng": 121.615,
+        "lat": 38.914,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "大连"
+      },
+      {
+        "id": "liaodong-coast-4",
+        "name": "庄河市",
+        "lng": 122.966,
+        "lat": 39.68,
+        "day": 4,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "庄河市"
+      },
+      {
+        "id": "liaodong-coast-5",
+        "name": "丹东",
+        "lng": 124.354,
+        "lat": 40.001,
+        "day": 5,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "丹东"
+      }
+    ],
+    "cover_style": "coast",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "jiangxi-villages",
+    "title": "景德镇婺源古村线",
+    "subtitle": "瓷器、茶香与徽派村落的四日旅行",
+    "region": "华东",
+    "category": "人文寻访",
+    "days": 4,
+    "distance_km": 350,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "瓷器、茶香与徽派村落的四日旅行。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "古村",
+      "陶瓷",
+      "茶乡"
+    ],
+    "stops": [
+      {
+        "id": "jiangxi-villages-1",
+        "name": "景德镇",
+        "lng": 117.178,
+        "lat": 29.268,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "景德镇"
+      },
+      {
+        "id": "jiangxi-villages-2",
+        "name": "瑶里镇",
+        "lng": 117.579,
+        "lat": 29.557,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "瑶里镇"
+      },
+      {
+        "id": "jiangxi-villages-3",
+        "name": "婺源县",
+        "lng": 117.862,
+        "lat": 29.248,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "婺源县"
+      },
+      {
+        "id": "jiangxi-villages-4",
+        "name": "篁岭景区",
+        "lng": 118.143,
+        "lat": 29.338,
+        "day": 3,
+        "kind": "scenic",
+        "stay_minutes": 150,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "篁岭景区"
+      },
+      {
+        "id": "jiangxi-villages-5",
+        "name": "三清山景区",
+        "lng": 118.065,
+        "lat": 28.9,
+        "day": 4,
+        "kind": "scenic",
+        "stay_minutes": 180,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "三清山景区"
+      }
+    ],
+    "cover_style": "forest",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  },
+  {
+    "slug": "taihu-weekend-loop",
+    "title": "环太湖周末线",
+    "subtitle": "两座城市之间，藏着一整圈湖光",
+    "region": "华东",
+    "category": "湖光山色",
+    "days": 3,
+    "distance_km": 320,
+    "season": "春、秋",
+    "difficulty": "轻松",
+    "description": "两座城市之间，藏着一整圈湖光。按自己的节奏增减节点，并为住宿、用餐和沿途停留留出时间。",
+    "tags": [
+      "环湖",
+      "周末出发",
+      "美食"
+    ],
+    "stops": [
+      {
+        "id": "taihu-weekend-loop-1",
+        "name": "苏州",
+        "lng": 120.585,
+        "lat": 31.299,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "苏州"
+      },
+      {
+        "id": "taihu-weekend-loop-2",
+        "name": "东山镇",
+        "lng": 120.402,
+        "lat": 31.08,
+        "day": 1,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "东山镇"
+      },
+      {
+        "id": "taihu-weekend-loop-3",
+        "name": "湖州",
+        "lng": 120.088,
+        "lat": 30.894,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "湖州"
+      },
+      {
+        "id": "taihu-weekend-loop-4",
+        "name": "宜兴",
+        "lng": 119.823,
+        "lat": 31.34,
+        "day": 2,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "宜兴"
+      },
+      {
+        "id": "taihu-weekend-loop-5",
+        "name": "无锡",
+        "lng": 120.312,
+        "lat": 31.491,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "无锡"
+      },
+      {
+        "id": "taihu-weekend-loop-6",
+        "name": "苏州",
+        "lng": 120.585,
+        "lat": 31.299,
+        "day": 3,
+        "kind": "town",
+        "stay_minutes": 60,
+        "note": "规划锚点；请重新搜索确认可到达入口及停车位置。",
+        "address": "苏州"
+      }
+    ],
+    "cover_style": "lake",
+    "featured": false,
+    "source_notes": "人工编排的旅行灵感模板，里程、天数、季节及停留时间均为估计，未逐段实地或实时核验。坐标为 GCJ-02 近似规划锚点，不能直接作为停车入口。出发前请使用高德重新搜索地点和计算驾车路线，并核实道路开放、天气、住宿及补能条件。 本模板为编辑选点，不代表官方推荐路线。"
+  }
+]

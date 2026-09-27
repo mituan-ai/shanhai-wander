@@ -1,27 +1,18 @@
-# 参与贡献
+# 参与山海漫游
 
-提交代码前请先运行：
+修复问题、改进界面、补充路线，都欢迎提交 Pull Request。
 
-```powershell
-npm run typecheck
-npm test
-npm run build
-npm run test:e2e
+```bash
+python manage.py test
+python manage.py makemigrations --check --dry-run
 ```
 
-## 路线数据
+修改界面后，在测试实例运行 `npm ci`、`npx playwright install chromium`、`npm run test:e2e`。
 
-1. 在 `src/domain/routes/` 中为每条路线单独建文件。
-2. 地点使用完整的省、市、区/县行政区名称和GCJ-02坐标。
-3. 游览地点使用 `stop`；仅为约束指定公路且不应展示的点使用 `anchor`。
-4. 正反方向必须保持严格相反的节点顺序。
-5. 保存路线地区、标签、版本、注意事项、来源和最近核验日期。
-6. 优先使用地方交通、政府、文旅和高德POI；社交平台攻略只能作为待核验线索。
+## 添加路线
 
-新增路线的PR必须说明核验方式。无法确认道路开放状态、坐标体系或节点顺序时，请先提交Issue，不要猜测。
+编辑 `planner/data/routes.json`，参照已有条目填写名称、地区、天数、GCJ-02 坐标、每日地点与 `source_notes`，再执行 `python manage.py seed_routes`。来源和注意事项应明确；估算里程不能写成实测里程，没有核验的信息不要写成已核验。
 
-## 提交边界
+截图请使用示例账号和示例行程。不要提交 `.env`、数据目录、备份、真实家庭地址、私人订单或地图密钥。
 
-- 不提交 `.env`、Key、服务器地址、酒店订单或真实家庭地址。
-- 不在一次PR中混入无关格式化或大规模重构。
-- 用户可见文字保持直接、短句，不使用夸张营销表达。
+README 分为 `README.md`（中文）与 `README_EN.md`（English），功能和命令应保持一致；配图位于 `assets/readme/`。

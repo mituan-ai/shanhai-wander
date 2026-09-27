@@ -1,19 +1,22 @@
-FROM node:22-alpine AS build
-WORKDIR /app
-COPY package.json package-lock.json ./
-RUN npm ci
-COPY . .
-RUN npm run build
+FROM python:3.12-slim
 
-FROM node:22-alpine AS runtime
-LABEL org.opencontainers.image.source="https://github.com/mituan-ai/china-roadtrip-planner"
-LABEL org.opencontainers.image.description="中国自驾路线规划器"
-ENV NODE_ENV=production
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_DISABLE_PIP_VERSION_CHECK=1 \
+    DATA_DIR=/app/data
 WORKDIR /app
-RUN addgroup -S app && adduser -S -D -H -G app app
-COPY package.json package-lock.json ./
-RUN npm ci --omit=dev && npm cache clean --force
-COPY --from=build /app/dist ./dist
-USER app
-EXPOSE 3000
-CMD ["node", "dist/server/server/index.js"]
+COPY requirements.lock ./
+RUN pip install --no-cache-dir -r requirements.lock \
+    && groupadd --gid 10001 wander \
+    && useradd --uid 10001 --gid wander --no-create-home --shell /usr/sbin/nologin wander
+COPY . .
+RUN chmod -R a+rX /app \
+    && mkdir -p /app/data /app/staticfiles \
+    && chown -R 10001:10001 /app/data /app/staticfiles \
+    && chmod 700 /app/data \
+    && chmod +x /app/scripts/start.sh
+USER 10001:10001
+VOLUME ["/app/data"]
+EXPOSE 8000
+STOPSIGNAL SIGTERM
+CMD ["./scripts/start.sh"]
